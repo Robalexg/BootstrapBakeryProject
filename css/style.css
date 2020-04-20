@@ -27,6 +27,16 @@ body {
     background: var(--mainBlack) !important;
   }
 
+  .btn-pink{
+    color: var(--mainPink) !important;
+    border-color: var(--mainPink) !important;
+  }
+
+  .btn-pink:hover{
+    color: var(--mainBlack) !important;
+    background: var(--mainPink) !important;
+  }
+
 /*nav-links*/
   .navbar-toggler{
     outline: none !important;
