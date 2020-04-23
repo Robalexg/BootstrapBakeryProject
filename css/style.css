@@ -81,6 +81,33 @@ body {
     color: var(--mainWhite);
   }
 
+  .cart{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255,255,255,.5);
+    overflow: hidden;
+    width: 0;
+    min-height: 10rem;
+    transition: all .2s ease-in-out;
+  }
+
+  .show-cart{
+    width: 20rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .cart-trash-icon{
+    color: var(--mainPink);
+    transition: all .5s ease-in-out;
+  }
+
+  .cart-trash-icon:hover{
+    color: var(--mainBlack);
+    transform: scale(1.1);
+  }
+
+
 /*banner*/
   .max-height{
     min-height: calc(100vh - 76px);
